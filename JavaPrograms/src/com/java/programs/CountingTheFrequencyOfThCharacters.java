@@ -67,6 +67,7 @@ for (Iterator iterator = a.iterator(); iterator.hasNext();) {
 	System.out.println(integer);
 	
 }
+// By Stream Method
 
 a.stream().sorted().forEach((j)-> System.out.println(j));
 ArrayList<Student> student = new ArrayList();
